@@ -3,12 +3,12 @@
 import os 
 import streamlit as st 
 import openai
-from dotenv import load_dotenv 
+#from dotenv import load_dotenv 
 
 
 
 #Load environment var
-load_dotenv()
+#load_dotenv()
 
 #Initialize OpenAI client 
 openai.api_key=st.secrets["OPENAI_API_KEY"]
